@@ -1,0 +1,274 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Background color and text color */
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	
+}
+
+/* Header styles */
+header {
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	width: 100vw;
+}
+
+.navbar {
+	background-color: black;
+	display: grid;
+	justify-content: space-evenly;
+	width: 100vw;
+	padding: 1vh 2vw;
+}
+
+.flexed {
+	display: flex;
+	width: 100vw;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0.5vh 2vw;
+}
+
+.fullNav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100vw;
+}
+
+.menu_links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5px 2px;
+	width: 50vw;
+}
+
+h1 {
+	text-align: center;
+}
+
+.header {
+    font-size: 2.5rem;
+    width: 100vw;
+}
+
+.ham_menu {
+	border: 1px solid transparent;
+	border-radius: 6px;
+	display: none;
+	padding: 5px 4px;
+}
+
+.ham_line {
+	background-color: #E2C044;
+	width: 7vw;
+	height: 4px;
+	margin: 0.3vh;
+}
+
+.item {
+	color: #E2C044;
+	text-decoration: none;
+	font-size: 1.8rem;
+	transition: text-decoration 0.3s ease-in-out;
+}
+
+.item:hover {
+	text-decoration: underline;
+}
+
+.socials {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.social {
+	width: 60px;
+	height: 60px;
+	display: flex;
+	transition: padding 0.5s ease-in-out,
+		border 0.5s ease-in-out,
+		border-radius 0.5s ease-in-out;
+}
+
+.social:hover {
+	border:1px solid gold;
+	border-radius: 50%;
+	padding: 7px;
+}
+
+.membershipBtn {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+
+/* Hero section styles */
+#hero {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+p {
+	font-size: 15px;
+}
+
+/* Call-to-action button styles */
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.cta-button-member {
+	display: inline-block;
+	background-color: #fff;
+	color: #000;
+	padding: 5px 10px;
+	margin: 0;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* Sections styles */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Event card styles */
+.event-card {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.msol {
+	color: #E2C044;
+	text-decoration: none;
+}
+
+.msol:hover {
+	text-decoration: underline;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    /*  smaller screens: phones,  tablets etc */
+    header {
+        flex-direction: column;
+	width: 90vw;
+	margin: 0 5vw;
+    }
+
+    .navbar {
+	    position: absolute;
+	    top: 0;
+    }
+
+
+    .header {
+        /*margin-bottom: 10px;*/
+	    font-size: 25px;
+	    text-align: center;
+    }
+
+    .ham_menu {
+	    display: grid;
+    }
+
+    .socials, .membershipBtn {
+	    display: none;
+    }
+
+    .menu_links {
+	    display: none;
+	    text-align: center;
+	    justify-content: center;
+    }
+
+    .menu_links div {
+	    width: 100%;
+	    margin: 3px;
+	    display: flex;
+	    justify-content: center;
+    }
+
+
+    .item {
+	    font-size: 17px;
+	    display: block;
+	    padding: 5px 10px;
+	    color: #E2C044;
+	    text-decoration: none;
+	    border: none;
+	    transition-duration: 1.2s;
+	    margin: 2px;
+	    width: 90vw;
+    }
+
+    .item:hover {
+	    background-color: #E2C044;
+	    color: black;
+    }
+
+    #hero {
+	    height: 80vh;
+    }
+
+    p {
+	    font-size: 14px;
+    }
+
+    section {
+	    width: 100vw;
+    }
+
+
+}
