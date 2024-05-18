@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Force Node.js version
+        run: sudo npm install -g n && sudo n 20
+
       - name: Checkout repository
         uses: actions/checkout@v3
 
