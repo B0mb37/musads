@@ -34,7 +34,7 @@ cd repo
 git checkout -b contribution-name
 ```
 ### 4. Make Changes
-Make your changes to the codebase. Ensure you adhere to the [Style Guidelines](./STYLE-GUIDELINES.md)
+Make your changes to the codebase. Ensure you adhere to the [Style Guidelines](#style-guidelines)
 
 ### 5. Commit your Changes
 Write clear, concise commit messages. Include the issue number where applicable.
@@ -56,12 +56,19 @@ git push origin contribution-name
 
 
 ## Pull Request Process
-
-
+1. Ensure your pull request (herein as PR) adheres to our coding standards. See [Style Guidelines](#style-guidelines) below.
+2. Describe your changes in detain in the PR description.
+3. Ensure there are no merge conlicts.
+4. Wait for us to complete the review.
 
 ## Style Guidelines
 
+We emphasize readability, collaboration and quality code. If familiar with [betty]() style coding, you are good to go! if not, you can start [here](./STYLE-GUIDELINES.md)
 
 ## Reporting Issues
 
+If you encounter any bugs or have suggestions for improvements, kindly open an issue on the [repository's issue]() page. Provide as much detail as possible to help in addressing it effectively.
 
+## Contacts
+
+If you have any questions or need further assistancem feel free to [email us](mailto: masenodebatesociety@gmail.com).
