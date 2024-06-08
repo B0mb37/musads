@@ -67,8 +67,8 @@ We emphasize readability, collaboration and quality code. If familiar with [bett
 
 ## Reporting Issues
 
-If you encounter any bugs or have suggestions for improvements, kindly open an issue on the [repository's issue]() page. Provide as much detail as possible to help in addressing it effectively.
+If you encounter any bugs or have suggestions for improvements, kindly open an issue on the [repository's issue](https://github.com/Maseno-Debate/musads/issues) page. Provide as much detail as possible to help in addressing it effectively.
 
 ## Contacts
 
-If you have any questions or need further assistancem feel free to [email us](mailto: masenodebatesociety@gmail.com).
+If you have any questions or need further assistancem feel free to [email us](mailto:masenodebatesociety@gmail.com).
